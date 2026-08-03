@@ -1,0 +1,7 @@
+# Development / testing dependencies.
+# easyocr and faster-whisper are only needed to regenerate the OCR/ASR cache
+# (code/media_text.json) from raw media; they are not required to run or test
+# the router itself.
+pytest>=7.0
+easyocr>=1.7
+faster-whisper>=1.0
